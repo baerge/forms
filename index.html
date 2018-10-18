@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/times.css" />
+<form name="login-form" action="login.php" method="post" enctype="application/x-www-form-urlencoded">
+    
+  
+ <input type="text" name="user" id="user" value="" placeholder="default text" required />
+<input type="email" name="user" id="user" value="" placeholder="user@domain.com" />
+<input type="password" name="user" id="user" value="" autocomplete="no" />
+<input type="number" name="num" id="num" value="1" />
+<input type="color" name="bg" id="bg" value="#bada55" />
+<input type="checkbox" name="alive" id="alive" value="yes" checked />
+<input type="radio" name="flavour" id="flavour" value="vanilla" checked />
+<input type="hidden" name="price" id="price" value="12.99" />
+<input type="search" name="search" id="search" />
+<input type="date" name="dt" id="dt" />
+<input type="datetime" name="dt" id="dt" />
+<input type="datetime-local" name="dt" id="dt" />
+<input type="time" name="timmy" id="timmy" />
+<input type="tel" name="phone" id="phone" />
+<input type="file" name="resume" id="resume" />
+</form> 
 
+<fieldset>
+    <legend>Choose a Flavour</legend>
+    <p>
+        <label for="choc">Chocolate</label>
+        <input type="radio" name="flavour" id="choc" value="Chocolate" />
+    </p>
+    <p>
+        <label for="van">Chocolate</label>
+        <input type="radio" name="flavour" id="van" value="Vanilla" />
+    </p>
+</fieldset>
+
+<textarea id="comments" name="comments">Default text goes here</textarea>
+<select id="people" name="people">
+    <option value="Bob">Bob</option>
+    <option value="Linda">Linda</option>
+    <option value="Tina">Tina</option>
+    <option value="Gene">Gene</option>
+</select>
+
+<input type="submit" id="btnSubmit" name="btnSubmit" value="Send" />
+<input type="reset" id="btnClear" name="btnClear" value="Clear" />
+<input type="image" id="btnImg" name="btnImg" src="./img/pic.jpg" />
+<input type="button" id="btnAdd" name="btnAdd" value="Add" />
+
+<button id="btnClick">Click Me</button>
+
+</head>
+<body>
+    
+</body>
+</html>
